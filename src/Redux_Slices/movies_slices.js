@@ -12,6 +12,8 @@ export const fetchMovies = createAsyncThunk(
       const response = await axios.get(
         `${API_URL}?apikey=${API_KEY}&s=${content}`
       );
+      console.log(response);
+      
       return response.data;
     } catch (error) {
       return error.message;

@@ -46,6 +46,7 @@ const Recommend = () => {
   useEffect(() => {
     dispatch(fetchMovies("movie"));
   }, [dispatch]);
+  
 
   return (
     <div className="recommend_movies">
@@ -58,7 +59,7 @@ const Recommend = () => {
       <div className="w-[80vw] mx-auto my-8">
         <Slider {...settings}>
           {movies.map((movie, index) => (
-            <div className="movies_card">
+            <div className="movies_card" key={index}>
               <div className="card">
                 <div className="movies_poster">
                   <img

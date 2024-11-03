@@ -59,7 +59,7 @@ const RecommendSeries = () => {
       <div className="w-[80vw] mx-auto my-8">
         <Slider {...settings}>
           {series.map((movie, index) => (
-            <div className="movies_card">
+            <div className="movies_card" key={index}>
               <div className="card">
                 <div className="movies_poster">
                   <img
