@@ -1,0 +1,134 @@
+// https://omdbapi.com/?apikey=c3ab7c2d&s=movie
+// https://omdbapi.com/?apikey=c3ab7c2d&s=${content}
+
+
+//   <div className="movie_carousel_section w-[85vw] mx-auto">
+//         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+//           <Carousel slide={false}>
+//             <div className="movies_cards_all flex justify-around text-center">
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//             </div>
+//               <div className="movies_cards_all flex justify-around text-center">
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//               <div className="movie_card">
+//                 <div className="movie_logo">
+//                   <img
+//                     src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-NjQ4LjNLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qhqgafrfxu-portrait.jpg"
+//                     alt=""
+//                     className="movie_logo w-[13vw] rounded-lg"
+//                   />
+//                 </div>
+//                 <p>Bhool Bhuliya 3</p>
+//               </div>
+//             </div>
+//           </Carousel>
+//         </div>
+//       </div>
+
+
+
+
+
+// // 
+// <div key={index} className="movie_carousel_section flex">
+//             {/* <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+//               <Carousel slide={false}> */}
+//                 <div className="movies_cards_all">
+//                   <div className="movie_card">
+//                     <div className="movie_logo">
+//                         <img src={movie.Poster} alt="" />
+//                     </div>
+//                     <p>{movie.Title}</p>
+//                   </div>
+//                 {/* </div>
+//               </Carousel> */}
+//             </div>
+//           </div>
