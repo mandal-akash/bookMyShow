@@ -3,8 +3,6 @@ import { Carousel } from "flowbite-react";
 import bookmyshow from "../../assets/bookMyShow.png";
 import { IoIosSearch } from "react-icons/io";
 import { HiMiniBars3 } from "react-icons/hi2";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchMovies } from "../../Redux_Slices/movies_slices";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
